@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Container for Sections */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header img.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* About Me Section */
+#about {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Resume Section */
+#resume {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+#resume h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+#resume h3 {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+#resume p, #resume ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#resume ul li {
+    margin: 8px 0;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.download-btn:hover {
+    background-color: #005f8d;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+#contact a:hover {
+    color: #005f8d;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
